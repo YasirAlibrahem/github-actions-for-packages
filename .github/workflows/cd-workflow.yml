@@ -59,7 +59,7 @@ jobs:
         name: webpack artifacts
         path: public
     - name: Build container image
-      uses: docker/build-push-action@v5
+      uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: github-actions-for-packages/tic-tac-toe
 #         tags: latest
